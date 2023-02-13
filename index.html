@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>P01 - Style Guide Template</title>
+
+    <link rel="stylesheet" href="css/main.css" >
+    <!--<link rel="stylesheet" href="css/normalize.css"> -->
+		<link rel="stylesheet" href="css/fonts.css"> 
+    <link rel="stylesheet" href="css/flexbox.css">
+
+  </head>
+
+  <body>
+
+    <div id="container">
+      
+      <!--left section that includes the title, and the page navigation-->
+        <section class="box1">
+          <h2>BETA5 Chocolates</h2>
+          <h1>P01 - Style Guide Template</h1>
+          <p>Award-Winning Chocolates, Pastries and Desserts.</p>
+    
+          <nav class="nav-page">        
+            <a href="#interactive_elements" class="nav-page-item">Interactive Elements</a>
+            <a href="#text_elements" class="nav-page-item">Text Elements</a>
+            <a href="#combined_elements" class="nav-page-item">Combined Elements</a>
+            <a href="product_listing.html" class="nav-page-item">Product Listing Template</a>
+            <a href="checkout.html" class="nav-page-item">Checkout Template</a>
+            <a href="#citations" class="nav-page-item">Citations</a>
+          </nav>
+        </section>
+
+        <section class="box2">
+          <!-- INTERACTIVE ELEMENTS SECTION // -->
+          <section id="interactive_elements">
+            <h2>Interactive Elements</h2>
+
+
+            <section class="element">
+              <h3>In-text link</h3>
+              <a href= "https://shop.beta5chocolates.com/pages/about-us" target="_blank" class="in-text"> Learn More about BETA5</a>
+            </section>
+
+
+            <!-- Default Button styling section -->
+            <section class="element">
+
+              <h3>Navigation Link</h3>
+              <a href= "https://shop.beta5chocolates.com/pages/contact" target="_blank" class="nav-main-item"> Contact Us</a>
+            </section>
+
+
+            <section class="element">
+              <h3>Submit/Reset Buttons</h3>
+
+              <button class="button reset">Reset</button>
+              <button class="button">Submit</button>
+
+            </section>
+
+
+            <section class="element">
+              <h3>Text Input Field with Label</h3>
+
+              <form method="post" action="#">
+                <label for="form-name" class="label">Name:</label>
+                <input type="text" id="form-name" placeholder="Enter your name">
+                <input class="button reset" type="reset" value="Reset">
+                <input class="button" type="submit" value="Submit">
+              </form>
+
+            </section>
+
+
+            <section class="element">
+              <h3>Radio Button with Label</h3>
+
+              <form method="post" action="#">
+              <h4>Please Select Your Pick-Up Method</h4>
+              <input type="radio" id="instore" name="pickup method" value="In Store Pick-Up">
+              <label for="instore" class="label">In Store Pick-Up</label>
+              <input type="radio" id="shipping" name="pickup method" value="Shipping">
+              <label for="shipping" class="label">Shipping</label>
+              <input class="button" type="submit" value="Submit">
+              </form>
+
+            </section>
+
+
+            <section class="element">
+              <h3>Image as a Link</h3>
+              <figure>
+                <a target="_blank" href="https://shop.beta5chocolates.com/collections/year-of-the-rabbit/products/golden-bunny"><img src="img/bunny.jpg" alt="Golden bunny chocolate"></a>
+                <figcaption>A Golden Bunny made of Chocolate</figcaption>
+              </figure>
+            </section>
+
+
+          </section>
+          <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+          <!-- TEXT ELEMENTS SECTION // -->
+          <section id="text_elements">
+            <h2>Text Elements</h2>
+
+            <section class="element">
+              <h3>Headings</h3>
+              <h1 class="heading-1">LEVEL 1 </h1>
+              <h2 class="heading-2">LEVEL 2</h2>
+              <h3 class="heading-3">LEVEL 3</h3>
+              <h4 class="heading-4">LEVEL 4</h4>
+            </section>
+
+            <section class="element">
+              <h3>Paragraphs</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vel facilisis volutpat est velit. Quisque non tellus orci ac auctor. Arcu dui vivamus arcu felis bibendum ut. Faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis. Tellus rutrum tellus pellentesque eu tincidunt tortor aliquam nulla. Turpis tincidunt id aliquet risus feugiat in ante metus dictum. Malesuada fames ac turpis egestas. Lectus quam id leo in vitae. Feugiat sed lectus vestibulum mattis ullamcorper. Etiam dignissim diam quis enim. Massa tempor nec feugiat nisl pretium. Aliquet porttitor lacus luctus accumsan tortor. Neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt. Amet consectetur adipiscing elit duis. Fusce ut placerat orci nulla pellentesque.
+              </p>
+            </section>
+
+            <section class="element">
+              <h3>Numbered Lists</h3>
+
+              <h4>Ingredients:</h4>
+              <ul>
+                <li>muscovado chocolate</li>
+                <li>black sesame + hazelnut praline</li>
+                <li>candied ginger</li>
+                <li>sesame snaps</li>
+              </ul>
+
+            </section>
+
+          </section>
+          <!-- // TEXT ELEMENTS SECTION -->
+
+
+          <!-- COMBINED ELEMENTS SECTION // -->
+          <section id="combined_elements">
+            <h2>Combined Elements</h2>
+
+            <section class="element">
+              <h3>Main Navigation</h3>
+
+              <nav class="nav-main">
+                <a href="#products" class="nav-main-item">Products</a>
+                <a href="#about" class="nav-main-item">About</a>
+                <a href="#updates" class="nav-main-item">Updates</a>
+                <a href="#contact" class="nav-main-item">Contact</a>
+              </nav>
+
+            </section>
+
+            <section class="element">
+              <h3>Product/Service Listing</h3>
+
+              <div class="product-listing">
+                <div class="product-image">
+                  <figure>
+                    <img src="img/creampuff1.JPG" alt="A golden bao cream puff">
+                  </figure>
+                </div>
+
+                <div class="product-text">
+                  <h2>Golden Bao Cream Puff</h2>
+                  <h3>$7</h3>
+                  <ul>
+                    <li>jasmine tea mousse</li>
+                    <li>pineapple curd</li>
+                    <li>jasmine tea chantilly</li>
+                    <li>pineapple-filled steamed bun</li>
+                  </ul>
+                </div>
+
+              </div>
+            </section>
+
+            <section class="element">
+              <h3>Payment Form</h3>
+
+              <form method="post" action="#" class="payment">
+                <h2>Payment</h2>
+                <br>
+                <label for="form-name" class="label">Name:</label>
+                <input type="text" id="form-name" placeholder="Please enter your name"><br>
+                <label for="form-email" class="label">Email:</label>
+                <input type="email" id="form-email" placeholder="Please enter your email">
+                <hr>
+                <h4>Please Select Your Payment Method<h4>
+                <input type="radio" id="debit" name="payment method" value="Debit Card">
+                <label for="debit" class="label">Debit Card</label>
+                <input type="radio" id="credit" name="payment method" value="Credit Card">
+                <label for="Credit" class="label">Credit Card</label>
+                <input type="radio" id="gift" name="payment method" value="Gift Card">
+                <label for="gift" class="label">Gift Card</label>
+                <hr>
+                <h4>Please Select Your Pick-Up Method</h4>
+                <input type="radio" id="instore" name="pickup method" value="In Store Pick-Up">
+                <label for="instore" class="label">In Store Pick-Up</label>
+                <input type="radio" id="shipping" name="pickup method" value="Shipping">
+                <label for="shipping" class="label">Shipping</label>
+                <br><br>
+                <input class="button" type="submit" value="Check Out">
+
+              </form>
+
+            </section>
+
+            <section class="element">
+              <h3>Checkout Cart</h3>
+
+              <form method="post" action="#" class="checkout">
+                <h2>Checkout</h2>
+                <figure>
+                  <img src="img/creampuff1.JPG" alt="A golden bao cream puff" id="cp1">
+                </figure>
+                <h2>Golden Bao Cream Puff</h2>
+                <h3>$7</h3>
+                <label for="form-quantity" class="label">Quantity:</label>
+                <input type="number" min="1"> 
+                <input class="button" type="button" value="Remove Item">
+                <br>
+                <input class="button" type="submit" value="Check Out">
+              </form>
+
+            </section>
+
+          </section>
+          <!-- // COMBINED ELEMENTS SECTION -->
+        </section>
+
+    </div>
+
+
+    <section id="citations">
+      <h2>Citations</h2>
+
+      <ul>
+        <li>Matteson, Steve. Designer. 2011. <strong>Open Sans [Font]</strong>. Retrieved from <a href="https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans">https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans</a></li>
+        <li>Creator. (Role). (Year). <strong>Title [Media]</strong>. Retrieved from <a href="#">URL</a>.</li>
+      </ul>
+
+    </section>
+
+  </body>
+</html>
